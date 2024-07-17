@@ -1,0 +1,9 @@
+[
+    {
+        "model": "puffapi.achievement",
+        "pk": 1,
+        "fields": {
+            "badge_image": "path/to/image1.png",
+            "description": "First Blub"
+        }
+    }]

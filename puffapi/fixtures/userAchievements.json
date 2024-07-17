@@ -1,0 +1,10 @@
+[
+    {
+        "model": "puffapi.userachievement",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "achievement": 1,
+            "time_achieved": "2024-07-17T13:00:00Z"
+        }
+    }]
