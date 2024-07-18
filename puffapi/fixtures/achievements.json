@@ -1,0 +1,26 @@
+[
+    {
+        "model": "puffapi.achievement",
+        "pk": 1,
+        "fields": {
+            "badge_image": "badges/first_blub.png",
+            "description": "Congratulations on capturing your first aquanaut in a bubble! You're on your way to becoming a master of the seas!"
+        }
+    },
+    {
+        "model": "puffapi.achievement",
+        "pk": 2,
+        "fields": {
+            "badge_image": "badges/bubble_master.png",
+            "description": "You've captured 50 aquanauts in bubbles! Your bubble-wrangling skills are unmatched!"
+        }
+    },
+    {
+        "model": "puffapi.achievement",
+        "pk": 3,
+        "fields": {
+            "badge_image": "badges/kraken_bane.png",
+            "description": "You’ve defeated your first Kraken boss! The deep sea trembles before your might!"
+        }
+    }
+]

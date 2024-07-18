@@ -1,0 +1,10 @@
+[
+    {
+        "model": "puffapi.feedback",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "date": "2024-07-17T16:00:00Z",
+            "feedback": "you suck!"
+        }
+    }]

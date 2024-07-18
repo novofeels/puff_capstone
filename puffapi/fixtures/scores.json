@@ -1,0 +1,10 @@
+[
+    {
+        "model": "puffapi.score",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "score": 1500,
+            "date": "2024-07-17T12:34:56Z"
+        }
+    }]
