@@ -5,6 +5,6 @@
         "fields": {
             "user": 1,
             "achievement": 1,
-            "time_achieved": "2024-07-17T13:00:00Z"
+            "date_achieved": "2024-07-17T13:00:00Z"
         }
     }]
