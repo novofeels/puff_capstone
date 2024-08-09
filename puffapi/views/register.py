@@ -55,7 +55,7 @@ def register_user(request):
     # Load the JSON string of the request body into a dict
     req_body = json.loads(request.body.decode())
 
-    fields_to_check = [("email", User), ("username", User)]
+    fields_to_check = [("username", User)]
 
     # Check for existing fields
     for field, model in fields_to_check:
@@ -72,7 +72,6 @@ def register_user(request):
     # on Django's built-in User model
     new_user = User.objects.create_user(
         username=req_body["username"],
-        email=req_body["email"],
         password=req_body["password"],
     )
 
